@@ -5,7 +5,7 @@ describe '#input_to_index' do
   it 'converts a user_input to an integer' do
     user_input = "1"
 
-    expect(converted_input).to be_a(Integer)
+    expect(converted_input).to be_i(Integer)
   end
 
   it 'subtracts 1 from the user_input' do
