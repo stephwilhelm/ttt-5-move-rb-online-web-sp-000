@@ -6,7 +6,7 @@ describe '#input_to_index' do
     user_input = "1"
     converted_input = input_to_index(user_input)
 
-    expect(converted_input).to be_i(Integer)
+    expect(converted_input).to be_a(Integer)
   end
 
   it 'subtracts 1 from the user_input' do
@@ -22,4 +22,5 @@ describe '#input_to_index' do
 
     expect(converted_input).to be(-1)
   end
+
 end
