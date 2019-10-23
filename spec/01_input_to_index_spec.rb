@@ -21,7 +21,4 @@ describe '#input_to_index' do
 
     expect(converted_input).to be(-1)
   end
-  it 'should be a string that is "1"-"9"' do
-    user_input = "1"-"9"
-    expect(converted_input).to be(1-9)
-  end
+
